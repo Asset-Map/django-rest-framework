@@ -9,7 +9,7 @@ import django
 import inspect
 from django.core.exceptions import ImproperlyConfigured
 from django.conf import settings
-from django.utils import six
+import six
 
 
 # Handle django.utils.encoding rename in 1.5 onwards.
