@@ -8,7 +8,7 @@ from django.conf import settings
 from django.test.client import Client as DjangoClient
 from django.test.client import ClientHandler
 from django.test import testcases
-from django.utils import six
+import six
 from django.utils.http import urlencode
 from rest_framework.settings import api_settings
 from rest_framework.compat import RequestFactory as DjangoRequestFactory

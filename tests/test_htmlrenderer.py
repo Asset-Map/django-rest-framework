@@ -4,7 +4,7 @@ from django.conf.urls import patterns, url
 from django.http import Http404
 from django.test import TestCase
 from django.template import TemplateDoesNotExist, Template
-from django.utils import six
+import six
 from rest_framework import status
 from rest_framework.decorators import api_view, renderer_classes
 from rest_framework.renderers import TemplateHTMLRenderer

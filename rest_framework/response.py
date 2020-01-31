@@ -7,7 +7,7 @@ The appropriate renderer is called during Django's template response rendering.
 from __future__ import unicode_literals
 import django
 from django.template.response import SimpleTemplateResponse
-from django.utils import six
+import six
 from rest_framework.compat import responses
 
 

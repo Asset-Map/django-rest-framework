@@ -8,7 +8,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.sessions.middleware import SessionMiddleware
 from django.core.handlers.wsgi import WSGIRequest
 from django.test import TestCase
-from django.utils import six
+import six
 from rest_framework import status
 from rest_framework.authentication import SessionAuthentication
 from rest_framework.parsers import (

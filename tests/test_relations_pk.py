@@ -1,7 +1,7 @@
 from __future__ import unicode_literals
 from django.db import models
 from django.test import TestCase
-from django.utils import six
+import six
 from rest_framework import serializers
 from tests.models import (
     BlogPost, ManyToManyTarget, ManyToManySource, ForeignKeyTarget, ForeignKeySource,

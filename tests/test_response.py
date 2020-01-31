@@ -1,7 +1,7 @@
 from __future__ import unicode_literals
 from django.conf.urls import patterns, url, include
 from django.test import TestCase
-from django.utils import six
+import six
 from tests.models import BasicModel, BasicModelSerializer
 from rest_framework.response import Response
 from rest_framework.views import APIView

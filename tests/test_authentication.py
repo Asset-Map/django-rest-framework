@@ -3,7 +3,7 @@ from django.conf.urls import patterns, url, include
 from django.contrib.auth.models import User
 from django.http import HttpResponse
 from django.test import TestCase
-from django.utils import six, unittest
+import six, unittest
 from django.utils.http import urlencode
 from rest_framework import HTTP_HEADER_ENCODING
 from rest_framework import exceptions

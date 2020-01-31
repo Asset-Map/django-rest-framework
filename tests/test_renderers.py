@@ -6,7 +6,7 @@ from django.conf.urls import patterns, url, include
 from django.core.cache import cache
 from django.db import models
 from django.test import TestCase
-from django.utils import six, unittest
+import six, unittest
 from django.utils.translation import ugettext_lazy as _
 from rest_framework import status, permissions
 from rest_framework.compat import yaml, etree, StringIO

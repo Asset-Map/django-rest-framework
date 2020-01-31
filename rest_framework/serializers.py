@@ -22,7 +22,7 @@ from decimal import Decimal
 from django.core.paginator import Page
 from django.db import models
 from django.forms import widgets
-from django.utils import six
+import six
 from django.utils.functional import cached_property
 from django.core.exceptions import ObjectDoesNotExist
 from rest_framework.compat import SortedDict, GenericForeignKey
