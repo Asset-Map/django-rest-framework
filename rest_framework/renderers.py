@@ -15,7 +15,7 @@ from django.core.exceptions import ImproperlyConfigured
 from django.http.multipartparser import parse_header
 from django.template import RequestContext, loader, Template
 from django.test.client import encode_multipart
-from django.utils import six
+import six
 from django.utils.xmlutils import SimplerXMLGenerator
 from rest_framework.compat import StringIO, smart_text, yaml
 from rest_framework.exceptions import ParseError
